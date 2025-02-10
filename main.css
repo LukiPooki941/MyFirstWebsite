@@ -21,6 +21,9 @@ h2 {
 a {
     text-decoration: none;
     color:dimgray;
+    font-size:16px;
+}
+a:active{
+  color:blue;
 }
 
-a::{}
