@@ -11,8 +11,16 @@ works.href = array1[i];
 works.innerHTML = array2[i];
 document.getElementById('my_Projects').appendChild(works);
 button.onclick = function(){ 
- works.href = array1[i++];
- works.innerHTML = array2[i++];
+works.href = '';
+works.innerHTML = '';
+i++;
+if(i === 3){
+    i-=3;
+}
+works.href = array1[i];
+works.innerHTML = array2[i];
+
+
     
 }
 }
