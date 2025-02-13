@@ -14,9 +14,9 @@ let works = document.createElement('a');
 document.getElementById('my_Projects').appendChild(works);
 
 
-var one = document.getElementsByClassName('1')[0];
-var two = document.getElementsByClassName('2')[0];
-var three = document.getElementsByClassName('3')[0];
+var one = document.getElementsByClassName('one')[0];
+var two = document.getElementsByClassName('two')[0];
+var three = document.getElementsByClassName('three')[0];
  
 works.href = array1[i];
 works.innerHTML = array2[i];
