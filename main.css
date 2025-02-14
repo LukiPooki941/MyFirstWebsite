@@ -90,7 +90,12 @@ span {
     margin-bottom: 45px;
 }
 
-@media screen only and ()
+@media only screen and (max-width: 480px;){
+#my_Projects{
+    color:aqua;
+}
+}
+
 
 
 
