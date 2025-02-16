@@ -86,18 +86,51 @@ span {
 }
 
 #skills{
-    margin-top:270px;
+    margin-top:200px;
     margin-bottom: 45px;
 }
 
-@media only screen and (max-width: 480px;){
-#my_Projects{
-    color:aqua;
+
+
+@media only screen and (max-width:880px){
+   #About_Me{
+    margin-bottom: 75px;
+   } 
+   #skills{
+    margin-top:270;
+   }
+
+   #skills {
+    width:500px;
+    margin:auto;
+   }
+
+   #skills img {
+     display:inline-flex;
+     flex-flow:row wrap;
+     
+    
+   }
+
 }
+@media only screen and (max-width:720px){
+    #About_Me{
+        margin-bottom: 100px;
+       } 
+    #skills{
+        margin-top:250px;
+    }
 }
 
-
-
+@media only screen and (max-width:580px){
+    #About_Me{
+        margin-bottom:175px;
+    }
+    #skills {
+        margin-top: 305px;
+    }
+    
+    }
 
 
     

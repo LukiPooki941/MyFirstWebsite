@@ -61,12 +61,16 @@ two.hidden = array3[j][1];
 three.hidden = array3[j][2];
 
 
+    }
+}
+
+
 
     
-}
-}
 
 insertElement(link, projectName, ary);
+
+
 
 
 
